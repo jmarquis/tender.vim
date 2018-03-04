@@ -29,9 +29,9 @@ let s:visual2 = [ "#282828", "#715b2f", 235, 58 ]
 let s:visual3 = [ "#ffc24b", "#44485c", 215, 238 ]
 let g:airline#themes#tender#palette.visual = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
 
-let s:inactive1 = [ "#bbbbbb", "#666666", 250, 242 ]
-let s:inactive2 = [ "#bbbbbb", "#666666", 250, 242 ]
-let s:inactive3 = [ "#bbbbbb", "#44485c", 250, 238 ]
+let s:inactive1 = [ "#bbbbbb", "#44485c", 250, 242 ]
+let s:inactive2 = [ "#bbbbbb", "#44485c", 250, 242 ]
+let s:inactive3 = [ "#bbbbbb", "#353847", 250, 238 ]
 let g:airline#themes#tender#palette.inactive = airline#themes#generate_color_map(s:inactive1, s:inactive2, s:inactive3)
 
 
